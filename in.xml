@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <GetCardInfoEx CardCode="8002" Account="8002" Deleted="0" Locked="0" Seize="0" Discount="25" Bonus="4" 
+    Summa="15000" DiscLimit="10000" Holder="Test farcards person 8002" unpay="4" Sum2="2000" Sum3="3000" Sum4="4000" Sum5="0"
+    DopInfo="additional info" WhyLock=""
+    ScrMessage="** Message for SCREEN **"
+    PrnMessage="* Message for PRINT *"
+  />
+  <GetCardInfoEx CardCode="7020" Account="7020" Deleted="0" Locked="0" Discount="11" Bonus="0" 
+    Summa="1000" DiscLimit="10000" Holder="7020" unpay="0" Sum2="0" Sum3="0" Sum4="0" Sum5="0"
+    DopInfo="additional info" WhyLock="" email="ucs@ucs.ru"/>
+	
+<GetCardImageEx CardCode="8002" FileName="image8002.jpg"/>
+  <GetCardInfoEx CardCode="10000000000008" Account="10000000000008" Deleted="0" Locked="0" Discount="25" Bonus="0" 
+    Summa="15000" DiscLimit="10000" Holder="Test farcards person 8003" unpay="4" Sum2="2000" Sum3="3000" Sum4="4000" Sum5="5000" Sum6="6000"
+    Sum7="7000" Sum8="8000"
+    DopInfo="additional info" WhyLock=""/>
+  <FindEmail email="director@ucs.ru" CardCode="8002" Account="8002" Name="UCS director"/>
+</Root>
